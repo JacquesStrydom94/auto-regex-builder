@@ -6,8 +6,8 @@ from itertools import permutations
 from collections import defaultdict
 
 # API Endpoint (Replace with actual URLs)
-API_SCHEMA_URL = "https://appnostic.dbflex.net/secure/api/v2/97065/AAAtest/describe.json"  # Endpoint to get column types
-API_POST_URL = "https://appnostic.dbflex.net/secure/api/v2/97065/AAAtest/create.json"  # Endpoint to test posting data
+API_SCHEMA_URL = "{schema_url}"  # Endpoint to get column types
+API_POST_URL = "{POST_URL}"  # Endpoint to test posting data
 
 # Authentication Credentials
 USERNAME = "jstrydom@farmtrace.co.za"
